@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-extern char** environ;
+
 #pragma once
 //Функція для встановлення значення змінної оточення
 void setVariableValue(char* variable, char* value) {
